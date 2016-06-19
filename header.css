@@ -1,0 +1,17 @@
+html,
+header  {
+    text-align: center;
+    color:dimgrey;
+    font-family:courier, monospace;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+#header {
+    padding:10px;
+}

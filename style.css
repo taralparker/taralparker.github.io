@@ -1,0 +1,108 @@
+body {
+    background: #FFF5D8 url(/images/bkgd.png) no-repeat fixed right bottom;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC', monospace;
+    font-weight:400;
+    line-height: 0%;
+    color:black;
+    font-size:700%;
+    padding-top: .1em;
+    margin-bottom:.15em;
+/*    position: relative;
+*/
+}
+
+h2  {
+    text-align: center;
+    color:dimgrey;
+    font-family:courier, monospace;
+    font-weight:400;
+    font-size:170%;
+    padding-top: 0px;
+    line-height: 100%;
+    /*    position: relative;
+    */
+}
+
+h3  {
+    text-align: justify;
+    color:dimgrey;
+    font-family:courier, monospace;
+    font-weight:400;
+    font-size:100%;
+    padding-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 100%;
+    /*    position: relative;
+    */
+}
+
+p  {
+    text-align: center;
+    color:dimgrey;
+    font-family:courier, monospace;
+    font-size:100%;
+    padding-top: 50px;
+    line-height: 100%;
+/*    overflow: hidden;
+    white-space: nowrap;
+*/
+}
+
+img{
+    /*padding-top: 50px;*/
+    margin: auto;
+    /*    position: relative;
+    */
+    height: auto;
+    width: auto;
+    max-height: 25vh;
+}
+
+/* unvisited link */
+a:link {
+    color: dimgrey;
+    text-decoration: none
+}
+
+/* visited link */
+a:visited {
+    color: dimgrey;
+    text-decoration: none
+}
+
+/* mouse over link */
+a:hover {
+    color: #899C66;
+    text-decoration: none
+}
+
+/* selected link */
+a:active {
+    color: #B15A5A;
+    text-decoration: none
+}
+
+/* center class used for table */
+div.centered {
+    text-align: center;
+}
+
+div.centered table
+{
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    position: absolute;
+}
